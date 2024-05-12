@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  gap: 0.5em;
+}
+
+nav h1 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+nav img{
+  width: 1.5em;
+}

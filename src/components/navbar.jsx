@@ -1,7 +1,11 @@
 import React from 'react'
+import EarthIc from '../assets/earth-ic.svg'
 
 export default function Navbar() {
     return(
-        <h1>navbar</h1>
+        <nav>
+            <img src={EarthIc}></img>
+            <h1>my travel journal.</h1>
+        </nav>
     )
 }
