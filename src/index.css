@@ -7,9 +7,14 @@ body {
   margin: 0;
 }
 
+.card-container,
+.location,
+nav {
+  display: flex;
+}
+
 nav {
   background: #F55A5A;
-  display: flex;
   justify-content: center;
   color: #fff;
   gap: 0.5em;
@@ -20,6 +25,59 @@ nav h1 {
   font-weight: 400;
 }
 
-nav img{
+nav img {
   width: 1.5em;
+}
+
+.card-container {
+  margin: 0 2em;
+  padding: 2em 0 1em 0;
+  border-bottom: 1px solid #F5F5F5;
+  gap: 1.25em;
+}
+
+.card-image {
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.location,
+h3,
+a,
+h4,
+p {
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.location {
+  align-items: center;
+  margin-top: 1em;
+  gap: 1em;
+}
+
+.location img {
+  height: 0.55rem;
+  margin-right: 0.25em;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: #2B283A;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5625rem;
+}
+
+h4 {
+  margin: 2em 0 0 0;
+  font-weight: 800;
+}
+
+a {
+  color: #918E9B;
 }
