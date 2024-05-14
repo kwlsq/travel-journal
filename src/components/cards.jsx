@@ -1,4 +1,3 @@
-import React from 'react'
 import LocationIc from '../assets/location-ic.svg'
 
 export default function Cards() {

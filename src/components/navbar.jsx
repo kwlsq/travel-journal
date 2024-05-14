@@ -1,4 +1,3 @@
-import React from 'react'
 import EarthIc from '../assets/earth-ic.svg'
 
 export default function Navbar() {
