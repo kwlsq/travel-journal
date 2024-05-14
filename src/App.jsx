@@ -1,13 +1,14 @@
 import './App.css'
 import Navbar from './components/navbar'
-import Cards from './components/cards'
+import Card from './components/card'
+import data from './data'
 
 function App() {
-
+  const cards = data.map(data => <Card key={data.id} {...data}></Card>)
   return (
     <>
       <Navbar />
-      <Cards/>
+      {cards}
     </>
   )
 }
